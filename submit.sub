@@ -1,0 +1,19 @@
+executable=/bin/bash
+Arguments = "$(args)"
+
+log = /dev/null
+output = /dev/null
+error = /dev/null
+
+should_transfer_files=NO
+
+initialdir = /data/user/mlarson/
+
+request_memory = 2000MB
+request_disk = 1000MB 
+
+Universe        = vanilla 
+Notification    = never 
+
+# GO! 
+queue
